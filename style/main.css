@@ -99,7 +99,7 @@ body {
 
 .lastname {
   font-weight: bold;
-  margin-left: 5px;
+  padding: 5px;
 }
 
 .nav-items {
@@ -382,9 +382,11 @@ body {
   color: var(--secondary-color);
 }
 .slider_container {
+  width: 80%;
+  margin: auto;
   margin-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #slider {
