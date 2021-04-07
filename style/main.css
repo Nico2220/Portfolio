@@ -372,7 +372,7 @@ body {
   padding-top: 50px;
 }
 .project_overview {
-  padding-left: 125px;
+  padding-left: 130px;
 }
 .project_name {
   /* margin: 0 0 10px 125px; */
@@ -393,7 +393,7 @@ body {
 #slider {
   flex: 3;
   overflow: hidden;
-  height: 450px;
+  height: 500px;
 }
 #slider figure {
   position: relative;
