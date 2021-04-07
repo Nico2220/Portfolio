@@ -99,7 +99,7 @@ body {
 
 .lastname {
   font-weight: bold;
-  color: (var(--header-color));
+  margin-left: 5px;
 }
 
 .nav-items {
