@@ -370,13 +370,14 @@ body {
 .projects {
   padding-top: 50px;
 }
-
+.project_overview {
+  margin-left: 125px;
+}
 .project_name {
-  margin: 0 0 10px 125px;
+  /* margin: 0 0 10px 125px; */
   font-size: 50px;
 }
 .site {
-  margin-left: 125px;
   color: var(--secondary-color);
 }
 .slider_container {
