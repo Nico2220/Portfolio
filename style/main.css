@@ -389,7 +389,7 @@ body {
 
 #slider {
   overflow: hidden;
-  width: 60%;
+  width: 700px;
   height: 500px;
 }
 #slider figure {
