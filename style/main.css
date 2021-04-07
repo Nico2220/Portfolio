@@ -99,6 +99,7 @@ body {
 
 .lastname {
   font-weight: bold;
+  color: (var(--header-color));
 }
 
 .nav-items {
@@ -388,7 +389,7 @@ body {
 
 #slider {
   overflow: hidden;
-  width: 700px;
+  width: 55%;
   height: 500px;
 }
 #slider figure {
