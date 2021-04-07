@@ -122,7 +122,7 @@ body {
 }
 .hero_container {
   display: flex;
-  width: 78%;
+  width: 75%;
   justify-content: center;
   align-items: center;
 }
@@ -372,7 +372,7 @@ body {
   padding-top: 50px;
 }
 .project_overview {
-  margin-left: 125px;
+  padding-left: 125px;
 }
 .project_name {
   /* margin: 0 0 10px 125px; */
@@ -382,17 +382,18 @@ body {
   color: var(--secondary-color);
 }
 .slider_container {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
   width: 80%;
   margin: auto;
   margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
 }
 
 #slider {
+  flex: 3;
   overflow: hidden;
-  width: 700px;
-  height: 500px;
+  height: 450px;
 }
 #slider figure {
   position: relative;
@@ -436,11 +437,10 @@ body {
 }
 
 .project_des {
-  /* flex: 1; */
+  flex: 1;
   border: 2px solid var(--border-color);
   border-radius: 5px;
-  margin-left: 30px;
-  width: 300px;
+  margin-left: 20px;
   padding: 10px 20px;
 }
 .technologies_header {
@@ -450,14 +450,15 @@ body {
 .technologies {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  justify-content: space-between;
 }
 
 .tech_item {
+  flex-wrap: wrap;
   border: 1px solid var(--border-color);
   padding: 8px;
   border-radius: 3px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   margin-bottom: 10px;
   background-color: var(--primary-color);
   font-size: 12px;
@@ -465,10 +466,10 @@ body {
 
 .project_explain_container {
   margin: 50px 0 0 125px;
+  width: 57%;
 }
 
 .project_explain {
-  width: 700px;
   line-height: 2;
   margin-top: 10px;
   margin-bottom: 50px;

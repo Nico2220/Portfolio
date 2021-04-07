@@ -278,7 +278,7 @@
   }
 
   .project_overview {
-    margin: 0;
+    padding: 0;
     text-align: center;
   }
 
@@ -295,13 +295,13 @@
   }
 
   #slider {
-    width: 80%;
+    flex: 1;
     height: 200px;
     margin: 0 auto;
   }
 
   .project_des {
-    width: 80%;
+    flex: 1;
     margin: 20px auto;
   }
 
