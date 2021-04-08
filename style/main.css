@@ -104,10 +104,11 @@ body {
 
 .nav-items {
   display: flex;
+  justify-content: flex-end;
 }
 
 .navbar {
-  flex: 0.5;
+  flex: 1;
 }
 .nav-item {
   margin-left: 20px;
@@ -144,6 +145,10 @@ body {
   box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
 }
 
+.hero_desc {
+  width: 42%;
+}
+
 .role {
   /* margin-top: 5px; */
 
@@ -159,19 +164,20 @@ body {
 }
 
 .profile_desc {
-  width: 550px;
+  width: 100%;
 }
 
 .cv-contact {
+  display: flex;
   margin-top: 20px;
 }
 
 .cv,
 .contact {
   border-radius: 20px;
-  padding: 10px 30px;
+  padding: 5px 10px;
   color: var(--paragraph-color);
-  margin-right: 15px;
+  margin-right: 10px;
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 22%);
   transition: all 0.3s ease-in-out;
 }
