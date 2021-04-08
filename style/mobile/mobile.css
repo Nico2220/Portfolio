@@ -200,7 +200,6 @@
 
   .testimonial_item {
     width: 80%;
-    background-color: red;
     /* margin: auto;
     padding: 0; */
 
@@ -261,23 +260,29 @@
     padding: 20px;
   }
 
-  .works {
+  /* .works {
     height: 100%;
     padding-bottom: 250px;
-  }
+  } */
 
   .works_photos {
-    width: 80%;
     display: block;
-    margin: auto;
+    padding: 20px;
+    height: 100%;
   }
   .work_link {
+    display: block;
     width: 100%;
     padding: 10px;
+    margin-right: 0;
   }
 
   .work {
     width: 100%;
+  }
+  .works_photos_margin {
+    margin-top: 0;
+    padding-top: 0px;
   }
 
   .project_overview {
