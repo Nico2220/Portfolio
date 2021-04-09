@@ -350,9 +350,10 @@ body {
   display: flex;
   justify-content: space-around;
   /* background-color: red; */
-  height: 450px;
+  height: 50vh;
   /* background-color: red; */
-  margin-bottom: -30px;
+  /* margin-bottom: -110px; */
+  /* margin-top: 0; */
 }
 
 .work_link {
