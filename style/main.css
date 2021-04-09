@@ -351,13 +351,15 @@ body {
   justify-content: space-around;
   /* background-color: red; */
   height: 450px;
+  /* background-color: red; */
+  margin-bottom: -30px;
 }
 
 .work_link {
   display: flex;
   justify-content: center;
   width: 600px;
-  margin-right: -20px;
+  /* margin-right: -20px; */
 }
 
 .work {
