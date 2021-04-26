@@ -8,7 +8,7 @@
   --border-color: #eee;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   body {
     padding: 0;
   }
@@ -17,7 +17,6 @@
     transition: all 0.5s ease-in-out;
     width: 100%;
     padding: 10px 0 0 20px;
-    /* background-color: red; */
   }
 
   .name {
@@ -34,7 +33,6 @@
 
   .navbar {
     position: absolute;
-    background-color: #fff;
     right: -400px;
     top: 56px;
     display: none;
