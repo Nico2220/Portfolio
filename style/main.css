@@ -289,6 +289,7 @@ body {
 
 .icon_profile {
   width: 100%;
+  border-radius: 50%;
 }
 
 .testimonial_content {
