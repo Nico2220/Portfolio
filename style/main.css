@@ -368,14 +368,14 @@ body {
 .work_link {
   /* display: flex; */
   /* justify-content: center; */
-  width: 450%;
+  width: 450px;
   margin-right: 20px;
   margin-bottom: 20px;
   /* background-color: #000; */
 }
 
 .work {
-  height: 350px;
+  height: 300px;
   width: 100%;
 
   transition: all 0.3s ease-in-out;
