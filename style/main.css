@@ -6,7 +6,8 @@
   --paragraph-color: #666;
   --bg-color: #fcfcfc;
   --border-color: #eee;
-  /* --bg-color-1: */
+  --bg-color-black: #000;
+  --bg-color-grey: #f4f5f7;
 }
 * {
   margin: 0;
@@ -285,6 +286,7 @@ body {
 .testimonial_prof {
   width: 30%;
   margin: -10px 0 0 -20px;
+  border-radius: 50%;
 }
 
 .icon_profile {
@@ -496,4 +498,12 @@ body {
   line-height: 2;
   margin-top: 10px;
   margin-bottom: 50px;
+}
+
+.bg_color_black {
+  background-color: var(--bg-color-black);
+}
+
+.bg_color_grey {
+  background-color: var(--bg-color-grey);
 }
